@@ -5,9 +5,11 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
+
+    font-family: sans-serif;
 }
 #cal-body{
-    background: #545151;
+    background: #000000;
     padding: 20px;
     border-radius: 10px;
 }
@@ -16,13 +18,15 @@ section{
     outline: 0;
     width: 60px;
     height: 60px;
-    border-radius: 10px;
+    border-radius: 15px;
     box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
-    background: transparent;
+    background: #8a887b;
     font-size: 20px;
+    font-weight: bold;
     color: #ffffff;
     cursor: pointer;
     margin: 10px;
+
 }
 form>.display-clear{
     display: flex;
@@ -31,13 +35,19 @@ form>.display-clear{
 }
 form>.display-clear>#clear{
     justify-content: left;
+    background: #cfceca;
+    color: #000000;
+    font-weight: bolder;
+    font-size: 25px;
 }
 form>.display-clear>#display-bar{
     justify-content: flex-end;
     text-align: right;
     flex: 1;
-    font-size: 45px;
-    /*box-shadow: none;*/
+    font-size: 35px;
+    font-weight: normal;
+    box-shadow: none;
     background: #ffffff;
     color: #000000;
+    border-radius: 8px;
 }

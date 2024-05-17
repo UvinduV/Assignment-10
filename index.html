@@ -3,6 +3,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <title>Calculator</title>
+    <link rel="stylesheet" href="assets/normalize.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -49,6 +50,8 @@
         display.value ='';
     })
 
+    /*Numbers*/
+
     $("#btn7").on('click', () => {
         display.value +='7';
     })
@@ -85,6 +88,7 @@
         display.value +='.';
     })
 
+    /*operators*/
 
     $("#Addition").on('click', () => {
         display.value +='+';
@@ -98,6 +102,7 @@
     $("#Divide").on('click', () => {
         display.value +='/';
     })
+
 
     $("#Equals").on('click', () => {
         display.value =eval(display.value);
