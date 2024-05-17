@@ -34,7 +34,7 @@
             </div>
             <div>
                 <input id="btn0" type="button" value="0">
-                <input id="btn." type="button" value=".">
+                <input id="point" type="button" value=".">
                 <input id="Divide" type="button" value="/">
                 <input id="Equals" type="button" value="=">
             </div>
@@ -81,6 +81,9 @@
     $("#btn0").on('click', () => {
         display.value +='0';
     })
+    $("#point").on('click', () => {
+        display.value +='.';
+    })
 
 
     $("#Addition").on('click', () => {
@@ -96,7 +99,9 @@
         display.value +='/';
     })
 
-
+    $("#Equals").on('click', () => {
+        display.value =eval(display.value);
+    })
 
 
 </script>
