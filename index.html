@@ -44,7 +44,13 @@
 
 <script src="../assets/lib/jquery-3.7.1.min.js"></script>
 <script>
-
+    var display = document.getElementById("display-bar");
+    $("#clear").on('click', () => {
+        display.value ='';
+    })
+    $("#btn7").on('click', () => {
+        display.value +='7';
+    })
 </script>
 
 </body>
