@@ -18,9 +18,9 @@ section{
     outline: 0;
     width: 60px;
     height: 60px;
-    border-radius: 15px;
+    border-radius: 60px;
     box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
-    background: #8a887b;
+    background: #827a67;
     font-size: 20px;
     font-weight: bold;
     color: #ffffff;
@@ -35,10 +35,11 @@ form>.display-clear{
 }
 form>.display-clear>#clear{
     justify-content: left;
-    background: #cfceca;
+    background: #bfbfbd;
     color: #000000;
-    font-weight: bolder;
+    font-weight: lighter;
     font-size: 25px;
+    border-radius: 10px;
 }
 form>.display-clear>#display-bar{
     justify-content: flex-end;
@@ -50,4 +51,7 @@ form>.display-clear>#display-bar{
     background: #ffffff;
     color: #000000;
     border-radius: 8px;
+}
+#cal-body>form>div>.operators{
+    background: #edae0e;
 }
