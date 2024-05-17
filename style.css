@@ -1,7 +1,7 @@
 section{
     width: 100%;
     height: 100vh;
-    background: #e3f9ff;
+    background: #877a7a;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -12,6 +12,7 @@ section{
     background: #000000;
     padding: 20px;
     border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 #cal-body>form>div>input{
     border: 0;
@@ -54,4 +55,17 @@ form>.display-clear>#display-bar{
 }
 #cal-body>form>div>.operators{
     background: #edae0e;
+}
+
+#cal-body>form>div>input:hover{
+    background: #cfcbc2;
+    color: #545351;
+}
+#cal-body>form>div>.operators:hover{
+    background: #ffffff;
+    color: #000000 ;
+}
+form>.display-clear>#clear:hover{
+    background: #f22318;
+    color: #ffffff;
 }
